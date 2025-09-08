@@ -1,12 +1,13 @@
-// step-1: start
-// step-2: print "Upto which number you want to print natural numbers? "
-// step-3: read Count
-// step-4: Counter = 1
-// step-5: If Counter <= Count:
-//            Counter = Counter + 1
-// 	          goto step-6
-// step-10: print "The sum of first " + Count + " natural numbers is " + Sum + "."
-// step-11: stop
+/* Algorithm for natural numbers upto N  
+step-1: start
+step-2: print "Upto which number you want to print natural numbers? "
+step-3: read Count
+step-4: Counter = 1
+step-5: If Counter <= Count:
+           Counter = Counter + 1
+	          goto step-6
+step-10: print "The sum of first " + Count + " natural numbers is " + Sum + "."
+step-11: stop */
 
 
 
