@@ -1,6 +1,6 @@
 // Algorithm : To print even natural numbers upto N.
 // step-1: start
-// step-2: print "Upto which number you want to print even natural numbers? "
+// step-2: print "Upto which number you want to print even numbers? "
 // step-3: read Count
 // step-4: Counter = 0
 // step-5: print "The even numbers upto " + Count + " are "

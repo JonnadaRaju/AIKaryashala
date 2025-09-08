@@ -22,8 +22,8 @@ int main()
 	printf("How many odd numbers you want to print? ");
 	scanf("%i", &count);
 	printf("The first %i odd numbers are ", count);
-	counter = 1;
-	while(number < count-1)
+	counter = 1, number = 0;
+	while(number <= count-1)
 	{
 		printf("%i, ", counter);
 	    counter = counter + 2;
