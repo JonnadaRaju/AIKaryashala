@@ -25,7 +25,7 @@ int main()
 	while(counter <= 10)
 	{
 		multiple = counter * count;
-		printf("%i X %i = %i\n", count, counter, multiple);
+		printf("%i X %-2i = %-2i\n", count, counter, multiple);
 		counter = counter + 1;
 	}
 

@@ -5,11 +5,11 @@ step-3: read Count
 step-4: Sum = 0
 step-5: Counter = 1
 step-6: If Counter <= Count:
-	   Sum = Sum + Counter
-	   Counter = Counter + 1
-	   goto step-6
-step-10: print "The sum of first " + Count + " natural numbers is " + Sum + "."
-step-11: stop */
+	       Sum = Sum + Counter
+	       Counter = Counter + 1
+	       goto step-6
+step-7: print "The sum of first " + Count + " natural numbers is " + Sum + ".\n"
+step-8: stop */
 
 
 
