@@ -7,9 +7,9 @@ step-5: Num1 = 0
 step-6: Counter = 1
 step-7: if Num1 < Count - 1:
           print Counter + ", "
-	      Counter = Counter + 2
-	      Num1 = Num1 + 1
-	      goto step-7
+	  Counter = Counter + 2
+	  Num1 = Num1 + 1
+	  goto step-7
 step-8: print Counter + ".\n"
 step-9: stop */
 
