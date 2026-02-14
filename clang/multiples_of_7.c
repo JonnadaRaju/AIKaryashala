@@ -5,10 +5,10 @@ step-3: read Count
 step-4: Counter = 1
 step-5: print "The first " + Count + " multiples of 7 are " 
 step-6: if Counter < Count:
-			Multiple = Counter * 7
-			print Multiple + ", "
-			Counter = Counter + 1
-			goto step-6
+          Multiple = Counter * 7
+          print Multiple + ", "
+          Counter = Counter + 1
+          goto step-6
 step-7: print (Counter * 7) + ".\n"
 step-8: stop */
 
