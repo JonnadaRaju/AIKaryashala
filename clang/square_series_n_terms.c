@@ -5,10 +5,10 @@ step-3: read Count
 step-4: Counter = 1
 step-5: print "The first " + Count + " terms in the square series is "
 step-6: if Counter < Count:
-			Square = Counter * Counter
-			print Square + ", "
-			Counter = Counter + 1
-			goto step-6
+          Square = Counter * Counter
+          print Square + ", "
+          Counter = Counter + 1
+          goto step-6
 step-7: print (Counter * Counter) + ".\n"
 step-8: stop */
 
@@ -27,7 +27,7 @@ int main()
 	counter = 1;
 	while(counter < count)
 	{
-		square = counter * counter;
+		square = square * (counter*counter);
 		printf("%i, ", square);
 		counter = counter + 1;
 	}
