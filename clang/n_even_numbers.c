@@ -6,10 +6,10 @@ step-4: Counter = 1
 step-5: EvenCounter = 0
 step-6: print "The first " + Count + " even numbers are "
 step-7: if Counter < Count:
-		      print EvenCounter + ", "
-		      Counter = Counter + 1
-		      EvenCounter = EvenCounter + 2
-		      goto step-7
+          print EvenCounter + ", "
+          Counter = Counter + 1
+          EvenCounter = EvenCounter + 2
+          goto step-7
 step-8: print EvenCounter + ".\n"
 step-9: stop */
 
