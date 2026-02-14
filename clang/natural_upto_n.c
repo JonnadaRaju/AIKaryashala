@@ -27,7 +27,7 @@ int main()
 		printf("%i, ", counter);
 		counter = counter + 1;
 	}
-	printf("%i.", counter);
+	printf("%i.\n", counter);
 
 	return 0;
 }
