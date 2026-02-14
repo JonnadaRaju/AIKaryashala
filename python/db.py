@@ -1,0 +1,16 @@
+import sqlite3
+db = sqlite3.connect("sample.db")
+cursor = db.cursor()
+cursor.execute("create table students_details(id, name, marks, year)")
+num = int(input("How many number of records you want to enter into database: "))
+for count in range(num):
+    id = int(input("Enter the id of student: "))
+    name = input("Enter the name of the student: ")
+    marks = int(input("Enter the marks of the student: "))
+    year = int(input("Enter the year of the student: "))
+    cursor.execute("insert into students_details values (?, ?, ?, ?)", (id, name, marks, year))
+cursor.execute("select * from students_details")
+print(cursor.fetchall())
+cursor.close()
+db.commit()
+db.close()
