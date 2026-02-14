@@ -1,22 +1,22 @@
-/*Algorithm:  To print a table book.
-step-1: start
+/* Algorithm:  To print a table book.
 step-2: Table1 = 1
 step-3: Table2 = 2
 step-4: Counter = 1
 step-5: print "The multiplication tables of " + Table1 + " and " + Table2 + ":\n"
 step-6: PageNumber = 1
 step-7: if PageNumber <= 10:
-			if Counter <= 10:
-			   Multiple1 = Table1 * Counter
-			   Multiple2 = Table2 * Counter
-			   print Table1 + " X " + Counter + " = " + Multiple1 + " | " + Table2 + " X " + Counter + " = " + Multiple2 + "\n"
-			   Counter = Counter + 1
-			   goto step-7
-step-8: Table1 = Table1 + 2
-step-9: Table2 = Table2 + 2
-step-10: goto step-4
-step-11: stop */
-
+          if Counter <= 10:
+            Multiple1 = Table1 * Counter
+            Multiple2 = Table2 * Counter
+            print Table1 + " X " + Counter + " = " + Multiple1 + " | " + Table2 + " X " + Counter + " = " + Multiple2 + "\n"
+            Counter = Counter + 1
+            goto step-7
+step-8: PageNumber = PageNumber + 1
+step-9: Table1 = Table1 + 2
+step-10: Table2 = Table2 + 2
+step-11: if PageNumber <= 10:
+           goto step-4
+step-12: stop */
 
 #include <stdio.h>
 
